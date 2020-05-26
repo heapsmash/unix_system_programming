@@ -46,7 +46,7 @@ FILE *my_popen(char *cmdstring)
 
     if (pid == 0) // child
     {
-        int out_fd = dup2(pipefd[WRITE], STDOUT_FILENO);
+        int out_fd = dup3(pipefd[WRITE], STDOUT_FILENO, O_CLOEXEC);
         if (out_fd < 0)
             perror("dup2");
 
