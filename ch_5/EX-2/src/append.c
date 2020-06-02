@@ -28,5 +28,7 @@ int main(int argc, char *argv[])
     if (n_written == -1)
         errExit("write");
 
+    close(fd);
+
     return 0;
 }
