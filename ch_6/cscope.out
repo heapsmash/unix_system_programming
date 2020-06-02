@@ -1,4 +1,4 @@
-cscope 15 $HOME/Documents/code/UNIX/ch_6               0000114189
+cscope 15 $HOME/Documents/code/UNIX/ch_6               0000114183
 	@build_folder/src/error_functions.c
 
 1 
@@ -7131,9 +7131,7 @@ v®ue
 
 39 ià(
 ov”wr™e
- == 0)
-
-40 ià(
+ =ð0 && 
 	`g‘’v
 (
 Çme
@@ -7141,11 +7139,11 @@ ov”wr™e
 NULL
 )
 
-42 
+41 
 cu¼’t_v¬
 ++;
 
-46 
+45 
 »tuº_v®ue
  = 
 	`pu‹nv
@@ -7155,43 +7153,43 @@ cu¼’t_v¬
 cu¼’t_v¬
 ]);
 
-47 
+46 
 cu¼’t_v¬
 ++;
 
-49  
+48  
 »tuº_v®ue
 ;
 
-50 
+49 
 	}
 }
 
-52 
+51 
 	$my_un£‹nv
 (*
 Çme
 )
 
-54  
+53  
 	`pu‹nv
 (
 Çme
 );
 
-55 
+54 
 	}
 }
 
-57 
+56 
 	$´št_’v
 ()
 
-59 **
+58 **
 •
 ;
 
-60 
+59 
 •
  = 
 ’vœÚ
@@ -7199,17 +7197,17 @@ cu¼’t_v¬
 NULL
 ;ƒp++)
 
-61 
+60 
 	`puts
 (*
 •
 );
 
-62 
+61 
 	}
 }
 
-64 
+63 
 	$maš
 (
 ¬gc
@@ -7217,63 +7215,63 @@ NULL
 ¬gv
 [])
 
-66 
+65 
 	`þ—»nv
 ();
 
-68 ià(
+67 ià(
 	`my_£‹nv
 ("FIRST", "BOB", 0) != 0)
 
-69 
+68 
 	`”rEx™
 ("my_setenv()");
 
-71 ià(
+70 ià(
 	`my_£‹nv
 ("SECOND", "BOB", 1) != 0)
 
-72 
+71 
 	`”rEx™
 ("my_setenv()");
 
-74 ià(
+73 ià(
 	`my_£‹nv
 ("SECOND", "BOB", 0) != 0)
 
-75 
+74 
 	`”rEx™
 ("my_setenv()");
 
-77 ià(
+76 ià(
 	`my_£‹nv
 ("THIRD", "BOB", 1) != 0)
 
-78 
+77 
 	`”rEx™
 ("my_setenv()");
 
-80 
+79 
 	`´št_’v
 ();
 
-82 
+81 
 	`puts
 ("==================");
 
-84 ià(
+83 ià(
 	`my_un£‹nv
 ("THIRD") != 0)
 
-85 
+84 
 	`”rEx™
 ("my_unsetenv()");
 
-87 
+86 
 	`´št_’v
 ();
 
-90 
+89 
 	}
 }
 

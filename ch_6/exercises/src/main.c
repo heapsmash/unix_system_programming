@@ -36,12 +36,11 @@ int my_setenv(const char *name, const char *value, int overwrite)
     env_var[current_var][name_len] = '=';
     strcat(env_var[current_var], value);
 
-    if (overwrite == 0)
-        if (getenv(name) != NULL)
-        {
-            current_var++;
-            return 0;
-        }
+    if (overwrite == 0 && getenv(name) != NULL)
+    {
+        current_var++;
+        return 0;
+    }
 
     int return_value = putenv(env_var[current_var]);
     current_var++;
