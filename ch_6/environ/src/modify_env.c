@@ -1,3 +1,12 @@
+/*
+    $ ./modify_env "GREET=Guten Tag" SHELL=/bin/bash BYE=Ciao
+    GREET=Guten Tag
+    SHELL=/bin/bash
+    $ ./modify_env SHELL=/bin/sh BYE=byebye
+    SHELL=/bin/sh
+    GREET=Hello world
+ */
+
 #define _GNU_SOURCE // To get various declarations from <stdlib.h>
 #include <stdlib.h>
 #include "tlpi_hdr.h"
