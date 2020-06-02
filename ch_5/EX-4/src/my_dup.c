@@ -19,9 +19,6 @@ int main(int argc, char *argv[])
     if (new_fd == -1)
         errExit("fcntl()");
 
-    if (old_fd == new_fd && fcntl(old_fd, F_GETFL) == -1)
-        errExit("old_fd == new_fd");
-
     if (close(old_fd) == -1)
         errExit("close(old_fd)");
 
