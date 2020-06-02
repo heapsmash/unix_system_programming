@@ -1,4 +1,4 @@
-cscope 15 $HOME/Documents/code/UNIX/ch_6               0000107381
+cscope 15 $HOME/Documents/code/UNIX/ch_6               0000112723
 	@build_folder/src/error_functions.c
 
 1 
@@ -5906,6 +5906,1116 @@ EXIT_SUCCESS
 }
 
 	@examples/src/tlpi_hdr.h
+
+1 #i‚de‡
+TLPI_HDR_H
+
+
+2 
+	#TLPI_HDR_H
+
+
+	)
+
+4 
+	~<sys/ty≥s.h
+>
+
+5 
+	~<°dio.h
+>
+
+6 
+	~<°dlib.h
+>
+
+7 
+	~<uni°d.h
+>
+
+8 
+	~<î∫o.h
+>
+
+9 
+	~<°rög.h
+>
+
+10 
+	~"gë_num.h
+"
+
+11 
+	~"îr‹_fun˘i⁄s.h
+"
+
+15 
+	mFALSE
+,
+
+16 
+	mTRUE
+
+
+17 } 
+	tBoﬁón
+;
+
+19 
+	#mö
+(
+m
+, 
+n
+Ë((mË< (nË? (mË: (n))
+
+	)
+
+20 
+	#max
+(
+m
+, 
+n
+Ë((mË> (nË? (mË: (n))
+
+	)
+
+	@exercises/src/error_functions.c
+
+1 
+	~<°d¨g.h
+>
+
+2 
+	~"îr‹_fun˘i⁄s.h
+"
+
+3 
+	~"épi_hdr.h
+"
+
+4 
+	~"íame.c.öc
+"
+
+7 #ifde‡
+__GNUC__
+
+
+8 
+__©åibuã__
+((
+__n‹ëu∫__
+))
+
+12 
+	$ãrmö©e
+(
+Boﬁón
+ 
+u£Exô3
+)
+
+14 *
+s
+;
+
+16 
+s
+ = 
+	`gëív
+("EF_DUMPCORE");
+
+17 i‡(
+s
+ !
+NULL
+ && *s != '\0')
+
+18 
+	`ab‹t
+();
+
+19 i‡(
+u£Exô3
+)
+
+20 
+	`exô
+(
+EXIT_FAILURE
+);
+
+22 
+	`_exô
+(
+EXIT_FAILURE
+);
+
+23 
+	}
+}
+
+26 
+	$ouçutEº‹
+(
+Boﬁón
+ 
+u£Eº
+, 
+îr
+, Boﬁó¿
+ÊushStdout
+,
+
+27 c⁄° *
+f‹m©
+, 
+va_li°
+ 
+≠
+)
+
+29 
+	#BUF_SIZE
+ 500
+
+	)
+
+30 
+buf
+[
+BUF_SIZE
+], 
+u£rMsg
+[BUF_SIZE], 
+îrText
+[BUF_SIZE];
+
+32 
+	`v¢¥ötf
+(
+u£rMsg
+, 
+BUF_SIZE
+, 
+f‹m©
+, 
+≠
+);
+
+34 i‡(
+u£Eº
+)
+
+35 
+	`¢¥ötf
+(
+îrText
+, 
+BUF_SIZE
+, " [%s %s]",
+
+36 (
+îr
+ > 0 &&Éº <
+MAX_ENAME
+Ë? 
+íame
+[îr] : "?UNKNOWN?", 
+	`°ªº‹
+(err));
+
+38 
+	`¢¥ötf
+(
+îrText
+, 
+BUF_SIZE
+, ":");
+
+40 
+	`¢¥ötf
+(
+buf
+, 
+BUF_SIZE
+, "ERROR%†%s\n", 
+îrText
+, 
+u£rMsg
+);
+
+42 i‡(
+ÊushStdout
+)
+
+43 
+	`fÊush
+(
+°dout
+);
+
+44 
+	`Âuts
+(
+buf
+, 
+°dîr
+);
+
+45 
+	`fÊush
+(
+°dîr
+);
+
+46 
+	}
+}
+
+48 
+	$îrMsg
+(c⁄° *
+f‹m©
+, ...)
+
+50 
+va_li°
+ 
+¨gLi°
+;
+
+51 
+ßvedEºno
+;
+
+53 
+ßvedEºno
+ = 
+î∫o
+;
+
+55 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+56 
+	`ouçutEº‹
+(
+TRUE
+, 
+î∫o
+, TRUE, 
+f‹m©
+, 
+¨gLi°
+);
+
+57 
+	`va_íd
+(
+¨gLi°
+);
+
+59 
+î∫o
+ = 
+ßvedEºno
+;
+
+60 
+	}
+}
+
+62 
+	$îrExô
+(c⁄° *
+f‹m©
+, ...)
+
+64 
+va_li°
+ 
+¨gLi°
+;
+
+66 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+67 
+	`ouçutEº‹
+(
+TRUE
+, 
+î∫o
+, TRUE, 
+f‹m©
+, 
+¨gLi°
+);
+
+68 
+	`va_íd
+(
+¨gLi°
+);
+
+70 
+	`ãrmö©e
+(
+TRUE
+);
+
+71 
+	}
+}
+
+73 
+	$îr_exô
+(c⁄° *
+f‹m©
+, ...)
+
+75 
+va_li°
+ 
+¨gLi°
+;
+
+77 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+78 
+	`ouçutEº‹
+(
+TRUE
+, 
+î∫o
+, 
+FALSE
+, 
+f‹m©
+, 
+¨gLi°
+);
+
+79 
+	`va_íd
+(
+¨gLi°
+);
+
+81 
+	`ãrmö©e
+(
+FALSE
+);
+
+82 
+	}
+}
+
+84 
+	$îrExôEN
+(
+î∫um
+, c⁄° *
+f‹m©
+, ...)
+
+86 
+va_li°
+ 
+¨gLi°
+;
+
+88 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+89 
+	`ouçutEº‹
+(
+TRUE
+, 
+î∫um
+, TRUE, 
+f‹m©
+, 
+¨gLi°
+);
+
+90 
+	`va_íd
+(
+¨gLi°
+);
+
+92 
+	`ãrmö©e
+(
+TRUE
+);
+
+93 
+	}
+}
+
+95 
+	$Áèl
+(c⁄° *
+f‹m©
+, ...)
+
+97 
+va_li°
+ 
+¨gLi°
+;
+
+99 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+100 
+	`ouçutEº‹
+(
+FALSE
+, 0, 
+TRUE
+, 
+f‹m©
+, 
+¨gLi°
+);
+
+101 
+	`va_íd
+(
+¨gLi°
+);
+
+103 
+	`ãrmö©e
+(
+TRUE
+);
+
+104 
+	}
+}
+
+106 
+	$ußgeEº
+(c⁄° *
+f‹m©
+, ...)
+
+108 
+va_li°
+ 
+¨gLi°
+;
+
+110 
+	`fÊush
+(
+°dout
+);
+
+112 
+	`Ârötf
+(
+°dîr
+, "Usage: ");
+
+113 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+114 
+	`vÂrötf
+(
+°dîr
+, 
+f‹m©
+, 
+¨gLi°
+);
+
+115 
+	`va_íd
+(
+¨gLi°
+);
+
+117 
+	`fÊush
+(
+°dîr
+);
+
+118 
+	`exô
+(
+EXIT_FAILURE
+);
+
+119 
+	}
+}
+
+121 
+	$cmdLöeEº
+(c⁄° *
+f‹m©
+, ...)
+
+123 
+va_li°
+ 
+¨gLi°
+;
+
+125 
+	`fÊush
+(
+°dout
+);
+
+127 
+	`Ârötf
+(
+°dîr
+, "Command-line usageÉrror: ");
+
+128 
+	`va_°¨t
+(
+¨gLi°
+, 
+f‹m©
+);
+
+129 
+	`vÂrötf
+(
+°dîr
+, 
+f‹m©
+, 
+¨gLi°
+);
+
+130 
+	`va_íd
+(
+¨gLi°
+);
+
+132 
+	`fÊush
+(
+°dîr
+);
+
+133 
+	`exô
+(
+EXIT_FAILURE
+);
+
+134 
+	}
+}
+
+	@exercises/src/error_functions.h
+
+1 #i‚de‡
+ERROR_FUNCTIONS_H
+
+
+2 
+	#ERROR_FUNCTIONS_H
+
+
+	)
+
+4 
+îrMsg
+(c⁄° *
+f‹m©
+, ...);
+
+6 #ifde‡
+__GNUC__
+
+
+9 
+	#NORETURN
+ 
+	`__©åibuã__
+((
+__n‹ëu∫__
+))
+
+	)
+
+11 
+	#NORETURN
+
+
+	)
+
+14 
+	$îrExô
+(c⁄° *
+f‹m©
+, ...Ë
+NORETURN
+;
+
+15 
+	$îr_exô
+(c⁄° *
+f‹m©
+, ...Ë
+NORETURN
+;
+
+16 
+	$îrExôEN
+(
+î∫um
+, c⁄° *
+f‹m©
+, ...Ë
+NORETURN
+;
+
+17 
+	$Áèl
+(c⁄° *
+f‹m©
+, ...Ë
+NORETURN
+;
+
+18 
+	$ußgeEº
+(c⁄° *
+f‹m©
+, ...Ë
+NORETURN
+;
+
+19 
+	$cmdLöeEº
+(c⁄° *
+f‹m©
+, ...Ë
+NORETURN
+;
+
+	@exercises/src/get_num.c
+
+1 
+	~<°dio.h
+>
+
+2 
+	~<°dlib.h
+>
+
+3 
+	~<°rög.h
+>
+
+4 
+	~<limôs.h
+>
+
+5 
+	~<î∫o.h
+>
+
+6 
+	~"gë_num.h
+"
+
+9 
+	$gnFaû
+(c⁄° *
+‚ame
+, c⁄° *
+msg
+, c⁄° *
+¨g
+, c⁄° *
+«me
+)
+
+11 
+	`Ârötf
+(
+°dîr
+, "%†îr‹", 
+‚ame
+);
+
+12 i‡(
+«me
+ !
+NULL
+)
+
+13 
+	`Ârötf
+(
+°dîr
+, " (ö %s)", 
+«me
+);
+
+14 
+	`Ârötf
+(
+°dîr
+, ": %s\n", 
+msg
+);
+
+15 i‡(
+¨g
+ !
+NULL
+ && *arg != '\0')
+
+16 
+	`Ârötf
+(
+°dîr
+, "of„ndögÅext: %s\n", 
+¨g
+);
+
+18 
+	`exô
+(
+EXIT_FAILURE
+);
+
+19 
+	}
+}
+
+22 
+	$gëNum
+(c⁄° *
+‚ame
+, c⁄° *
+¨g
+, 
+Êags
+, c⁄° *
+«me
+)
+
+24 
+ªs
+;
+
+25 *
+íd±r
+;
+
+26 
+ba£
+;
+
+28 i‡(
+¨g
+ =
+NULL
+ || *arg == '\0')
+
+29 
+	`gnFaû
+(
+‚ame
+, "nuŒ o∏em±y såög", 
+¨g
+, 
+«me
+);
+
+31 
+ba£
+ = (
+Êags
+ & 
+GN_ANY_BASE
+Ë? 0 : (Êag†& 
+GN_BASE_8
+Ë? 8 : (Êag†& 
+GN_BASE_16
+) ? 16 : 10;
+
+33 
+î∫o
+ = 0;
+
+34 
+ªs
+ = 
+	`°πﬁ
+(
+¨g
+, &
+íd±r
+, 
+ba£
+);
+
+35 i‡(
+î∫o
+ != 0)
+
+36 
+	`gnFaû
+(
+‚ame
+, "°πﬁ(ËÁûed", 
+¨g
+, 
+«me
+);
+
+38 i‡(*
+íd±r
+ != '\0')
+
+39 
+	`gnFaû
+(
+‚ame
+, "n⁄numîi¯ch¨a˘îs", 
+¨g
+, 
+«me
+);
+
+41 i‡((
+Êags
+ & 
+GN_NONNEG
+Ë&& 
+ªs
+ < 0)
+
+42 
+	`gnFaû
+(
+‚ame
+, "√g©ivêvÆuênŸáŒowed", 
+¨g
+, 
+«me
+);
+
+44 i‡((
+Êags
+ & 
+GN_GT_0
+Ë&& 
+ªs
+ <= 0)
+
+45 
+	`gnFaû
+(
+‚ame
+, "vÆuêmu° bê> 0", 
+¨g
+, 
+«me
+);
+
+47  
+ªs
+;
+
+48 
+	}
+}
+
+50 
+	$gëL⁄g
+(c⁄° *
+¨g
+, 
+Êags
+, c⁄° *
+«me
+)
+
+52  
+	`gëNum
+("gëL⁄g", 
+¨g
+, 
+Êags
+, 
+«me
+);
+
+53 
+	}
+}
+
+55 
+	$gëI¡
+(c⁄° *
+¨g
+, 
+Êags
+, c⁄° *
+«me
+)
+
+57 
+ªs
+;
+
+58 
+ªs
+ = 
+	`gëNum
+("gëI¡", 
+¨g
+, 
+Êags
+, 
+«me
+);
+
+60 i‡(
+ªs
+ > 
+INT_MAX
+ ||Ñe†< 
+INT_MIN
+)
+
+61 
+	`gnFaû
+("gëI¡", "öãgî ouào‡ønge", 
+¨g
+, 
+«me
+);
+
+62  ()
+ªs
+;
+
+63 
+	}
+}
+
+	@exercises/src/get_num.h
+
+1 #i‚de‡
+GET_NUM_H
+
+
+2 
+	#GET_NUM_H
+
+
+	)
+
+4 
+	#GN_NONNEG
+ 01
+
+	)
+
+5 
+	#GN_GT_0
+ 02
+
+	)
+
+8 
+	#GN_ANY_BASE
+ 0100
+
+	)
+
+9 
+	#GN_BASE_8
+ 0200
+
+	)
+
+10 
+	#GN_BASE_16
+ 0400
+
+	)
+
+12 
+gëL⁄g
+(c⁄° *
+¨g
+, 
+Êags
+, c⁄° *
+«me
+);
+
+13 
+gëI¡
+(c⁄° *
+¨g
+, 
+Êags
+, c⁄° *
+«me
+);
+
+	@exercises/src/main.c
+
+	@exercises/src/tlpi_hdr.h
 
 1 #i‚de‡
 TLPI_HDR_H
@@ -19602,8 +20712,8 @@ __GCC_IEC_559_COMPLEX
 .
 1
 /usr/include
-40
-1210
+46
+1368
 build_folder/src/error_functions.c
 build_folder/src/error_functions.h
 build_folder/src/get_num.c
@@ -19633,6 +20743,12 @@ examples/src/get_num.c
 examples/src/get_num.h
 examples/src/main.c
 examples/src/tlpi_hdr.h
+exercises/src/error_functions.c
+exercises/src/error_functions.h
+exercises/src/get_num.c
+exercises/src/get_num.h
+exercises/src/main.c
+exercises/src/tlpi_hdr.h
 /usr/include/errno.h
 /usr/include/limits.h
 /usr/include/setjmp.h
