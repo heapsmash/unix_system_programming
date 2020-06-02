@@ -1,4 +1,4 @@
-cscope 15 $HOME/Documents/code/UNIX/ch_6               0000112723
+cscope 15 $HOME/Documents/code/UNIX/ch_6               0000114189
 	@build_folder/src/error_functions.c
 
 1 
@@ -7014,6 +7014,268 @@ g‘IÁ
 );
 
 	@exercises/src/main.c
+
+8 
+	#_GNU_SOURCE
+
+
+9 
+	~<¡dlib.h
+>
+
+	)
+
+10 
+	~"Žpi_hdr.h
+"
+
+12 
+	#MAX_LEN
+ 100
+
+13 
+	#MAX_VARS
+ 100
+
+	)
+
+15 **
+’vœÚ
+;
+
+17 
+	$my_£‹nv
+(cÚ¡ *
+Çme
+, cÚ¡ *
+v®ue
+, 
+ov”wr™e
+)
+
+19 
+’v_v¬
+[
+MAX_VARS
+][
+MAX_LEN
+ + 1];
+
+20 
+cu¼’t_v¬
+ = 0;
+
+22 ià(
+Çme
+ =ð
+NULL
+ || 
+v®ue
+ == NULL)
+
+24 
+	`”rMsg
+("const char *name‡nd const char *value can't be NULL: my_setenv()\n");
+
+28 
+size_t
+ 
+Çme_Ën
+ = 
+	`¡¾’
+(
+Çme
+);
+
+29 ià((
+Çme_Ën
+ + 
+	`¡¾’
+(
+v®ue
+è+ 1è> 
+MAX_LEN
+)
+
+31 
+	`”rMsg
+("MAX_ENVƒxceeded: my_setenv()\n");
+
+35 
+	`¡rÿt
+(
+’v_v¬
+[
+cu¼’t_v¬
+], 
+Çme
+);
+
+36 
+’v_v¬
+[
+cu¼’t_v¬
+][
+Çme_Ën
+] = '=';
+
+37 
+	`¡rÿt
+(
+’v_v¬
+[
+cu¼’t_v¬
+], 
+v®ue
+);
+
+39 ià(
+ov”wr™e
+ == 0)
+
+40 ià(
+	`g‘’v
+(
+Çme
+è!ð
+NULL
+)
+
+42 
+cu¼’t_v¬
+++;
+
+46 
+»tuº_v®ue
+ = 
+	`pu‹nv
+(
+’v_v¬
+[
+cu¼’t_v¬
+]);
+
+47 
+cu¼’t_v¬
+++;
+
+49  
+»tuº_v®ue
+;
+
+50 
+	}
+}
+
+52 
+	$my_un£‹nv
+(*
+Çme
+)
+
+54  
+	`pu‹nv
+(
+Çme
+);
+
+55 
+	}
+}
+
+57 
+	$´št_’v
+()
+
+59 **
+•
+;
+
+60 
+•
+ = 
+’vœÚ
+; *• !ð
+NULL
+;ƒp++)
+
+61 
+	`puts
+(*
+•
+);
+
+62 
+	}
+}
+
+64 
+	$maš
+(
+¬gc
+, *
+¬gv
+[])
+
+66 
+	`þ—»nv
+();
+
+68 ià(
+	`my_£‹nv
+("FIRST", "BOB", 0) != 0)
+
+69 
+	`”rEx™
+("my_setenv()");
+
+71 ià(
+	`my_£‹nv
+("SECOND", "BOB", 1) != 0)
+
+72 
+	`”rEx™
+("my_setenv()");
+
+74 ià(
+	`my_£‹nv
+("SECOND", "BOB", 0) != 0)
+
+75 
+	`”rEx™
+("my_setenv()");
+
+77 ià(
+	`my_£‹nv
+("THIRD", "BOB", 1) != 0)
+
+78 
+	`”rEx™
+("my_setenv()");
+
+80 
+	`´št_’v
+();
+
+82 
+	`puts
+("==================");
+
+84 ià(
+	`my_un£‹nv
+("THIRD") != 0)
+
+85 
+	`”rEx™
+("my_unsetenv()");
+
+87 
+	`´št_’v
+();
+
+90 
+	}
+}
 
 	@exercises/src/tlpi_hdr.h
 

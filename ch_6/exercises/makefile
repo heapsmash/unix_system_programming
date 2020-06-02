@@ -1,7 +1,7 @@
 TARGET   = binary
 
 CC       = gcc
-CFLAGS   = -Wall -I.
+CFLAGS   = -g -Wall -I.
 
 LINKER   = gcc
 LFLAGS   = -I.
