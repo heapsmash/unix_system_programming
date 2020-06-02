@@ -28,7 +28,7 @@ int my_setenv(const char *name, const char *value, int overwrite)
     size_t name_len = strlen(name);
     if ((name_len + strlen(value) + 1) > MAX_LEN)
     {
-        errMsg("MAX_ENV exceeded: my_setenv()\n");
+        errMsg("MAX_LEN exceeded: my_setenv()\n");
         return 1;
     }
 

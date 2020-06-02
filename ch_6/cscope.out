@@ -7099,7 +7099,7 @@ MAX_LEN
 
 31 
 	`”rMsg
-("MAX_ENVƒxceeded: my_setenv()\n");
+("MAX_LENƒxceeded: my_setenv()\n");
 
 35 
 	`¡rÿt
