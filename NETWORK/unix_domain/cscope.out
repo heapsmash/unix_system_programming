@@ -1,4 +1,4 @@
-cscope 15 $HOME/Documents/code/UNIX/NETWORK/unix_domain               0000244780
+cscope 15 $HOME/Documents/code/UNIX/NETWORK/unix_domain               0000245460
 	@client/src/error_functions.c
 
 1 
@@ -1045,7 +1045,129 @@ gëI¡
 ¨gv
 [])
 
-6 
+5 
+sockaddr_un
+ 
+addr
+;
+
+6 
+sockëFd
+;
+
+7 
+ssize_t
+ 
+numRód
+;
+
+8 
+buf
+[
+BUF_SIZE
+];
+
+10 
+sockëFd
+ = 
+	`sockë
+(
+AF_UNIX
+, 
+SOCK_STREAM
+, 0);
+
+11 i‡(
+sockëFd
+ == -1)
+
+12 
+	`îrExô
+("socket");
+
+16 
+	`mem£t
+(&
+addr
+, 0, (
+sockaddr_un
+));
+
+17 
+addr
+.
+sun_Ámûy
+ = 
+AF_UNIX
+;
+
+18 
+	`°∫˝y
+(
+addr
+.
+sun_∑th
+, 
+SV_SOCK_PATH
+, (addr.sun_path) - 1);
+
+20 i‡(
+	`c⁄√˘
+(
+sockëFd
+, (
+sockaddr
+ *)&
+addr
+, (
+sockaddr_un
+)) == -1)
+
+21 
+	`îrExô
+("connect");
+
+25 (
+numRód
+ = 
+	`ªad
+(
+STDIN_FILENO
+, 
+buf
+, 
+BUF_SIZE
+)) > 0)
+
+26 i‡(
+	`wrôe
+(
+sockëFd
+, 
+buf
+, 
+numRód
+) !=ÇumRead)
+
+27 
+	`Áèl
+("partial/failed write");
+
+29 i‡(
+numRód
+ == -1)
+
+30 
+	`îrExô
+("read");
+
+32 
+	`exô
+(
+EXIT_SUCCESS
+);
+
+33 
 	}
 }
 
