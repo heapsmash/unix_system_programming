@@ -1149,13 +1149,13 @@ US_XFR_H
 	~"Žpi_hdr.h
 "
 
-7 
+8 
 	#SV_SOCK_PATH
  "/tmp/us_xä"
 
 	)
 
-8 
+9 
 	#BUF_SIZE
  100
 
@@ -2491,13 +2491,13 @@ US_XFR_H
 	~"Žpi_hdr.h
 "
 
-7 
+8 
 	#SV_SOCK_PATH
  "/tmp/us_xä"
 
 	)
 
-8 
+9 
 	#BUF_SIZE
  100
 
